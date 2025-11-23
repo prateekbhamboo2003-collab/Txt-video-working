@@ -35,9 +35,9 @@ import requests
 
 bot = Client(
     "bot",
-    bot_token=os.environ.get("BOT_TOKEN"),
-    api_id=int(os.environ.get("API_ID")),
-    api_hash=os.environ.get("API_HASH")
+    bot_token=os.environ.get("8458145401:AAGVWdj2-kWFk6oVSDrY_0IFk1XNzN5T7Fc"),
+    api_id=int(os.environ.get("32402877")),
+    api_hash=os.environ.get("145427eddb5c1bc4dc943d0a89f0f98b")
 )
 
 logger = logging.getLogger()
@@ -640,3 +640,4 @@ async def account_login(bot: Client, m: Message):
 
 
 bot.run()
+
